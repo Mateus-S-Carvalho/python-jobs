@@ -45,7 +45,7 @@ print("Valor total dos produtos vendidos: R$", quantidadeVendida)"""
 
 """VARIAVEL"""
 
-produtos = [
+produtoss = [
     {'nomeProduto': 'banana',
     'quantidadeProduto':1,
     'valorProduto':10},
@@ -55,23 +55,24 @@ produtos = [
 ]
 valores = []
 nomes = []
+Produtos = [] 
 
 
 
 
 """FUNÇÃO"""
 
-"""def adicionarProduto (nomeProduto,quantidadeProduto,valorProduto):
+def adicionarProduto (nomeProduto,quantidadeProduto,valorProduto):
     informacaoProduto = {
         'nomeProduto': nomeProduto,
         'quantidadeProduto':quantidadeProduto,
         'valorProduto':valorProduto
     }
-    return informacaoProduto"""
+    return informacaoProduto
 
 """ADICIONAR INTENS"""
 
-"""while True:
+while True:
     entrada = input('Deseja adicionar um produto? (s/n)').lower()
     if entrada == 's':
         nomeProduto = input('Nome do produto: ')
@@ -96,7 +97,7 @@ nomes = []
         break
     else:
         print('Parece que não digitou as letras corretas, por favor digite "s" para adicionar ou "n" para parar.')
-"""
+
 
 
 
